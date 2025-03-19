@@ -1,0 +1,5 @@
+[ WARN:0] VIDEOIO(V4L2:/dev/video0): can't open camera by index
+Traceback (most recent call last):
+  File "/home/pashayev/tflite1/TFLite_detection_webcam.py", line 117, in <module>
+    frame = frame1.copy()
+AttributeError: 'NoneType' object has no attribute 'copy'
